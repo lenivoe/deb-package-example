@@ -1,0 +1,10 @@
+Source: hydrogen-rugby-july-floor
+Section: devel
+Priority: optional
+Maintainer: Oleg Levin <lev-eg@yandex-team.ru>
+Build-Depends: build-essential, debhelper (>= 9), curl
+
+Package: hydrogen-rugby-july-floor
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: shows many ducks
